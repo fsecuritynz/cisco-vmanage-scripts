@@ -1,0 +1,2 @@
+vdevice-host-name,cellular-interface,vdevice-name,radio-rat-selected,radio-band,bandwidth,radio-tx-channel,radio-rx-channel,radio-rssi,radio-rssi-rating,radio-snr,radio-snr-rating,radio-rsrq,radio-rsrq-rating,radio-rsrp,radio-rsrp-rating,nr5g-rxch,nr5g-txch,nr5g-band,nr5g-rssi,nr5g-snr,nr5g-rsrq,nr5g-rsrp,lastupdated
+site-b_r2,Cellular0/2/0,1.1.30.2,system-mode-lte-fdd,28,bandwidth-20-mhz,27310,9310,-59,Excellent,12.4,Fair,-12,Good,-91,Fair,,,,,,,,27/06/2025 12:45
