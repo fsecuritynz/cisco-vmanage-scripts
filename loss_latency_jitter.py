@@ -84,7 +84,7 @@ for tunnel in tunneldetails:
     tunnel['Latency Rating'] = get_rating(tunnel['latency'], 150, 50)
     tunnel['Jitter Rating'] = get_rating(tunnel['jitter'], 30, 10)
 
-with open('qual-file_'+str(epoch)+'.csv', 'w', newline='') as file:
+with open('file_'+str(epoch)+'.csv', 'w', newline='') as file:
     writer = csv.DictWriter(file, fieldnames=['Local Endpoint', 'Local Color', 'Remote Endpoint', 'Remote Color', 'Loss', 'Loss Rating', 'Latency', 'Latency Rating', 'Jitter', 'Jitter Rating', 'State'])
     writer.writeheader()
     for tunnel in tunneldetails:
@@ -102,4 +102,4 @@ with open('qual-file_'+str(epoch)+'.csv', 'w', newline='') as file:
             'State': tunnel['state']
         })
 
-print("Stats exported to :>>> " + ('qual-file_'+str(epoch)+'.csv'))
+print("Stats exported to :>>> " + ('file_'+str(epoch)+'.csv'))
