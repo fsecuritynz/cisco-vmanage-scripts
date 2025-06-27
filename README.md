@@ -1,7 +1,7 @@
 # Loss Latency Jitter
 - Pulls the loss,latency & jitter parameters for SD-WAN tunnels out of vManage and populates a CSV file
 
-# Cellular QUality
+# Cellular Quality
 - Pulls cellular radio information out of vManage for specified System-IP's and populates a CSV. Also makes a quality assessment for each radio parameter.
 - RSSI: Received Signal Strength Indicator
 
