@@ -45,7 +45,7 @@ else:
 
 # Output filename with timestamp
 timestamp = datetime.now().strftime("%Y-%m-%d-%H-%M-%S")
-csv_filename = f"qual-radio-{timestamp}.csv"
+csv_filename = f"radio-{timestamp}.csv"
 
 # CSV Fields
 fields = [
