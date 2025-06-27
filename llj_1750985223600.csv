@@ -1,0 +1,17 @@
+Local Endpoint,Local Color,Remote Endpoint,Remote Color,Loss,Loss Rating,Latency,Latency Rating,Jitter,Jitter Rating,State
+dc-1_r1,biz-internet,site-b_r2,lte,0,Good,40.8,Good,19.4,Average,Up
+dc-2_r1,biz-internet,site-b_r2,lte,0.03,Good,40,Good,19.2,Average,Up
+site-b_r2,lte,dc-2_r1,biz-internet,0,Good,37.4,Good,13.2,Average,Up
+site-b_r2,lte,dc-1_r1,biz-internet,0,Good,37.333,Good,13.833,Average,Up
+dc-1_r1,biz-internet,site-a_r1,biz-internet,0,Good,1,Good,0,Good,Up
+dc-1_r1,biz-internet,site-a_r2,biz-internet,0,Good,1,Good,0,Good,Up
+dc-2_r1,biz-internet,site-a_r1,biz-internet,0,Good,1,Good,0,Good,Up
+dc-2_r1,biz-internet,site-a_r2,biz-internet,0,Good,1,Good,0,Good,Up
+dc-2_r1,biz-internet,site-b_r1,biz-internet,0,Good,1,Good,0,Good,Up
+site-a_r1,biz-internet,dc-1_r1,biz-internet,0,Good,1,Good,0,Good,Up
+site-a_r1,biz-internet,dc-2_r1,biz-internet,0,Good,1,Good,0,Good,Up
+site-a_r2,biz-internet,dc-2_r1,biz-internet,0,Good,1,Good,0,Good,Up
+site-b_r1,biz-internet,dc-1_r1,biz-internet,0,Good,1,Good,0,Good,Up
+site-b_r1,biz-internet,dc-2_r1,biz-internet,0,Good,1,Good,0,Good,Up
+site-a_r2,biz-internet,dc-1_r1,biz-internet,0,Good,0.6,Good,0,Good,Up
+dc-1_r1,biz-internet,site-b_r1,biz-internet,0,Good,0,Good,0,Good,Up
