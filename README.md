@@ -19,3 +19,7 @@ Pulls cellular radio information out of vManage for specified System-IP's and po
 
 ## Config Downloader
 Pulls the running configuration of a managed device (i.e. sd-wan router) and saves it in a dated folder as a txt file
+
+## BGP Status
+Pulls the BGP status of each VRF/VPN's peer and sorts them in a table.
+Use the **-o router-name.csv ** flag to output to CSV if reuqired.
